@@ -1,4 +1,4 @@
-# couchsurfing
+# cabinbnb
 
 ## Project setup
 ```
