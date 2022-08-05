@@ -2,7 +2,7 @@ import { Property } from '../types';
 
 const properties : Property[] = [
     {
-        image: 'images/glenwood.jpg',
+        image: '../assets/images/glenwood.jpg',
         price: 45,
         location: {
             city: 'Glenwood',
@@ -12,7 +12,7 @@ const properties : Property[] = [
         isAvailable: true
     },
     {
-        image: 'images/heron-lake.jpg',
+        image: '../assets/images/heron-lake.jpg',
         price: 30,
         location: {
             city: 'Heron Lake',
@@ -22,7 +22,7 @@ const properties : Property[] = [
         isAvailable: false
     },
     {
-        image: 'images/harbor-springs.jpg',
+        image: '../assets/images/harbor-springs.jpg',
         price: 25,
         location: {
             city: 'Harbor Springs',
@@ -32,7 +32,7 @@ const properties : Property[] = [
         isAvailable: true
     },
     {
-        image: 'images/lake-tahoe.jpeg',
+        image: '../assets/images/lake-tahoe.jpg',
         price: 35,
         location: {
             city: 'Lake Tahoe',
@@ -42,7 +42,7 @@ const properties : Property[] = [
         isAvailable: false
     },
     {
-        image: 'images/cedar-city.jpeg',
+        image: '../assets/images/cedar-city.jpg',
         price: 35,
         location: {
             city: 'Cedar City',
@@ -52,7 +52,7 @@ const properties : Property[] = [
         isAvailable: false
     },
     {
-        image: 'images/banff.jpeg',
+        image: '../assets/images/banff.jpg',
         price: 35,
         location: {
             city: 'Banff',
@@ -62,7 +62,7 @@ const properties : Property[] = [
         isAvailable: false
     },
     {
-        image: 'images/fairfax.jpeg',
+        image: '../assets/images/fairfax.jpg',
         price: 35,
         location: {
             city: 'Fairfax',
