@@ -1,15 +1,17 @@
 export interface Property {
+    id: number,
     image: string;
+    sleeps: number
     price: number;
     location: {
         city: string;
         state: string;
     }
-    contact: [ number, string];
-    isAvailable: boolean;
 }
 
 export interface Review {
+    id: number,
+    propertyId: number,
     name: string;
     stars: number;
     description: string;

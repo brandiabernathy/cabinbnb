@@ -1,36 +1,15 @@
 
 <template>
-	<header>
+	<header class="px-20 py-10 border-b">
 		<div>
-			<h1>cabinbnb</h1>
+			<h1 class="text-2xl">cabinbnb</h1>
 		</div>
 	</header>
 </template>
 
 
-<script>
+<script lang="ts">
 export default {
 	name: 'Header',
 }
 </script>
-
-<style scoped>
-	header {
-		height: 70px;
-		border-bottom: 1px solid #ddd;
-		padding: 0 40px;
-		line-height: 70px;
-		background-color: #fff;
-	}
-	h1 {
-		display: inline-block;
-		vertical-align: middle;
-		margin: 0;
-	}
-	img {
-		display: inline-block;
-		vertical-align: middle;
-		width: 40px;
-		margin-right: 10px;
-	}
-</style>

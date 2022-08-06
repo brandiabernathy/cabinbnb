@@ -1,15 +1,20 @@
 
 <template>
-	<div>
-		<div v-for="(property, i) in properties" :key="i">
-			<img :src="property.image">
-            <div>{{ property.location.city }}, {{ property.location.state }}</div>
+	<div class="px-20 py-10 grid xl:grid-cols-4 gap-6 xl:justify-between">
+		<div v-for="property in properties" :key="property.id">
+            <div class="aspect-square">
+                <img :src="`${publicPath}images/` + property.image" class="h-full w-full object-cover rounded">
+            </div>
+            <div class="mt-1.5">
+                <div>{{ property.location.city }}, {{ property.location.state }}</div>
+                <div>${{ property.price }} night</div>
+            </div>
 		</div>
 	</div>
 </template>
 
 
-<script>
+<script lang="ts">
 import properties from '@/properties-list.ts';
 
 export default {
@@ -17,6 +22,7 @@ export default {
     data() {
 		return {
 			properties: properties,
+            publicPath: process.env.BASE_URL
 		};
 	},
 }

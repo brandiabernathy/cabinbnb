@@ -2,74 +2,134 @@ import { Property } from '../types';
 
 const properties : Property[] = [
     {
-        image: '../assets/images/glenwood.jpg',
-        price: 45,
+        id: 0,
+        image: 'glenwood.jpg',
+        price: 250,
+        sleeps: 10,
         location: {
             city: 'Glenwood',
             state: 'Iowa',
         },
-        contact: [+112343823978921, 'marywinkle@gmail.com'],
-        isAvailable: true
     },
     {
-        image: '../assets/images/heron-lake.jpg',
-        price: 30,
+        id: 1,
+        image: 'heron-lake.jpg',
+        sleeps: 2,
+        price: 90,
         location: {
             city: 'Heron Lake',
             state: 'New Mexico',
         },
-        contact: [+1298239028490830, 'garydavis@hotmail.com'],
-        isAvailable: false
     },
     {
-        image: '../assets/images/harbor-springs.jpg',
-        price: 25,
+        id: 2,
+        image: 'harbor-springs.jpg',
+        sleeps: 8,
+        price: 275,
         location: {
             city: 'Harbor Springs',
             state: 'Michigan',
         },
-        contact: [+34829374892553, 'andyluger@aol.com'],
-        isAvailable: true
     },
     {
-        image: '../assets/images/lake-tahoe.jpg',
-        price: 35,
+        id: 3,
+        image: 'lake-tahoe.jpg',
+        sleeps: 6,
+        price: 300,
         location: {
             city: 'Lake Tahoe',
             state: 'California',
         },
-        contact: [ +60349822083, 'lee34@gmail.com'],
-        isAvailable: false
     },
     {
-        image: '../assets/images/cedar-city.jpg',
-        price: 35,
+        id: 4,
+        image: 'cedar-city.jpg',
+        sleeps: 2,
+        price: 110,
         location: {
             city: 'Cedar City',
             state: 'Utah',
         },
-        contact: [ +60349822083, 'lee34@gmail.com'],
-        isAvailable: false
     },
     {
-        image: '../assets/images/banff.jpg',
-        price: 35,
+        id: 5,
+        image: 'vancouver.jpg',
+        sleeps: 10,
+        price: 400,
         location: {
-            city: 'Banff',
-            state: 'Alberta, Canada',
+            city: 'Vancouver',
+            state: 'Washington',
         },
-        contact: [ +60349822083, 'lee34@gmail.com'],
-        isAvailable: false
     },
     {
-        image: '../assets/images/fairfax.jpg',
-        price: 35,
+        id: 6,
+        image: 'fairfax.jpg',
+        sleeps: 15,
+        price: 450,
         location: {
             city: 'Fairfax',
             state: 'Minnesota',
         },
-        contact: [ +60349822083, 'lee34@gmail.com'],
-        isAvailable: false
+    },
+    {
+        id: 7,
+        image: 'montpelier.jpg',
+        sleeps: 6,
+        price: 245,
+        location: {
+            city: 'Montpelier',
+            state: 'Vermont',
+        },
+    },
+    {
+        id: 8,
+        image: 'lake-tahoe2.jpg',
+        sleeps: 14,
+        price: 635,
+        location: {
+            city: 'Lake Tahoe',
+            state: 'California',
+        },
+    },
+    {
+        id: 9,
+        image: 'flagstaff.jpg',
+        sleeps: 4,
+        price: 135,
+        location: {
+            city: 'Flagstaff',
+            state: 'Arizona',
+        },
+    },
+    {
+        id: 10,
+        image: 'osage-beach.jpg',
+        sleeps: 8,
+        price: 160,
+        location: {
+            city: 'Osage Beach',
+            state: 'Missouri',
+        },
+    },
+    {
+        id: 11,
+        image: 'zephyr-cove.jpg',
+        sleeps: 2,
+        price: 80,
+        location: {
+            city: 'Zephyr Cove',
+            state: 'Nevada',
+        },
+    },
+    {
+        id: 12,
+        image: 'big-bear.jpg',
+        sleeps: 8,
+        price: 280,
+        location: {
+            city: 'Big Bear Lake',
+            state: 'California',
+        },
     },
 ]
 
