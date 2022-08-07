@@ -131,6 +131,36 @@ const properties : Property[] = [
             state: 'California',
         },
     },
+    {
+        id: 13,
+        image: 'telluride.jpg',
+        sleeps: 10,
+        price: 380,
+        location: {
+            city: 'Telluride',
+            state: 'Colorado',
+        },
+    },
+    {
+        id: 14,
+        image: 'bozeman.jpg',
+        sleeps: 6,
+        price: 140,
+        location: {
+            city: 'Bozeman',
+            state: 'Montana',
+        },
+    },
+    {
+        id: 24,
+        image: 'big-bear2.jpg',
+        sleeps: 4,
+        price: 125,
+        location: {
+            city: 'Big Bear Lake',
+            state: 'California',
+        },
+    },
 ]
 
 export default properties;

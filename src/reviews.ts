@@ -33,6 +33,46 @@ const reviews : Review[] = [
         description: '',
         date: '',
     },
+    {
+        id: 4,
+        propertyId: 10,
+        name: 'Sonny',
+        stars: 5,
+        description: '',
+        date: '',
+    },
+    {
+        id: 5,
+        propertyId: 4,
+        name: 'Laila',
+        stars: 4,
+        description: '',
+        date: '',
+    },
+    {
+        id: 6,
+        propertyId: 4,
+        name: 'Harry',
+        stars: 3,
+        description: '',
+        date: '',
+    },
+    {
+        id: 7,
+        propertyId: 11,
+        name: 'Tara',
+        stars: 2,
+        description: '',
+        date: '',
+    },
+    {
+        id: 8,
+        propertyId: 5,
+        name: 'Michelle',
+        stars: 5,
+        description: '',
+        date: '',
+    },
 ]
 
 export default reviews;
