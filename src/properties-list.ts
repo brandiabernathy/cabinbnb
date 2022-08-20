@@ -152,7 +152,7 @@ const properties : Property[] = [
         },
     },
     {
-        id: 24,
+        id: 15,
         image: 'big-bear2.jpg',
         sleeps: 4,
         price: 125,

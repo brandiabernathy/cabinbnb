@@ -13,7 +13,7 @@ export interface Review {
     id: number,
     propertyId: number,
     name: string;
-    stars: number;
+    rating: number;
     description: string;
     date: string;
 }
